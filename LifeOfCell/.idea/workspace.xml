@@ -26,8 +26,8 @@
       <file leaf-file-name="TestCell.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestCell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+            <state relative-caret-position="331">
+              <caret line="32" column="54" lean-forward="true" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,8 +38,8 @@
       <file leaf-file-name="CellLife.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/CellLife.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="2976">
+              <caret line="115" column="8" lean-forward="false" selection-start-line="115" selection-start-column="8" selection-end-line="115" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -890,44 +890,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496455988109</updated>
-      <workItem from="1496455989633" duration="13426000" />
+      <workItem from="1496455989633" duration="15339000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCell_testTrans - 2017.06.03 at 13h 08m 07s.xml">
-      <configuration name="TestCell.testTrans" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCell_testTrans - 2017.06.03 at 13h 09m 05s.xml">
-      <configuration name="TestCell.testTrans" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCell_testTrans - 2017.06.03 at 13h 20m 27s.xml">
-      <configuration name="TestCell.testTrans" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCell_testTrans - 2017.06.03 at 13h 20m 47s.xml">
-      <configuration name="TestCell.testTrans" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCell_testTrans - 2017.06.03 at 13h 23m 45s.xml">
-      <configuration name="TestCell.testTrans" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCell_testTrans - 2017.06.03 at 13h 26m 55s.xml">
-      <configuration name="TestCell.testTrans" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCell_testTrans - 2017.06.03 at 13h 38m 52s.xml">
-      <configuration name="TestCell.testTrans" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCell_testTrans - 2017.06.03 at 13h 41m 49s.xml">
-      <configuration name="TestCell.testTrans" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCell_testTrans - 2017.06.03 at 13h 46m 25s.xml">
-      <configuration name="TestCell.testTrans" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestCell_testTrans - 2017.06.03 at 13h 58m 29s.xml">
+      <configuration name="TestCell.testTrans" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCell_testTrans - 2017.06.03 at 14h 08m 34s.xml">
+      <configuration name="TestCell.testTrans" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCell_testTrans - 2017.06.03 at 14h 09m 31s.xml">
+      <configuration name="TestCell.testTrans" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCell_testTrans - 2017.06.03 at 14h 10m 25s.xml">
+      <configuration name="TestCell.testTrans" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCell_testTrans - 2017.06.03 at 14h 11m 07s.xml">
+      <configuration name="TestCell.testTrans" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCell_testTrans - 2017.06.03 at 14h 13m 30s.xml">
+      <configuration name="TestCell.testTrans" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCell_testTrans - 2017.06.03 at 14h 14m 52s.xml">
+      <configuration name="TestCell.testTrans" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCell_testTrans - 2017.06.03 at 14h 17m 26s.xml">
+      <configuration name="TestCell.testTrans" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCell_testTrans - 2017.06.03 at 14h 19m 29s.xml">
+      <configuration name="TestCell.testTrans" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCell_testTrans - 2017.06.03 at 14h 21m 44s.xml">
       <configuration name="TestCell.testTrans" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13426000" />
+    <option name="totallyTimeSpent" value="15339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -942,7 +942,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22945206" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43150684" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -955,7 +955,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24657534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47260273" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1008,18 +1008,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/CellLife.java</url>
-          <line>90</line>
+          <line>99</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/CellLife.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1070,8 +1064,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        <state relative-caret-position="331">
+          <caret line="32" column="54" lean-forward="true" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1080,8 +1074,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CellLife.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="2976">
+          <caret line="115" column="8" lean-forward="false" selection-start-line="115" selection-start-column="8" selection-end-line="115" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

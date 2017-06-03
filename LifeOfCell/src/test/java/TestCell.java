@@ -20,7 +20,8 @@ public class TestCell {
     @Test
     public void testTrans(){
         CellLife cellLife = new CellLife();
-        String str = "-------*----*----*-------";
+        //String str = "-------*----*----*-------";
+        String str = "-----------***-----------";
         int index = 0;
         char[][] result = new char[5][5];
         for (int i = 0; i < 5; i++) {
@@ -29,6 +30,6 @@ public class TestCell {
             }
         }
         char[][] array = cellLife.inputCellOfArray();
-        Assert.assertArrayEquals(cellLife.trans(array),result);
+        Assert.assertArrayEquals(cellLife.trans(array,2),result);
     }
 }
