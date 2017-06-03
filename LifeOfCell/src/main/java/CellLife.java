@@ -11,9 +11,7 @@ public class CellLife {
     static char[][] cellArray = new char[5][5];
     static char[][] cellCopy = new char[5][5];
 
-
     public char[][] inputCellOfArray() {
-
         String str = "-----------***-----------";
         int index = 0;
         for (int i = 0; i < 5; i++) {
@@ -24,8 +22,6 @@ public class CellLife {
         }
         return cellArray;
     }
-
-
      /*  String[][] cellArray = new String[4][4];
         *//* for (int i = 0; i < n-1; i++) {
             for (int j = 0; j < n-1; j++) {
@@ -39,7 +35,7 @@ public class CellLife {
             cellArray[i][4-1] = dead;
         }*/
 
-    public void circu(char[][] array,int m){
+    public void circu (char[][] array,int m) {
         char[][] next = new char[5][5];
         for (int i = 0; i < m; i++) {
             next = trans(array);
@@ -114,9 +110,5 @@ public class CellLife {
         CellLife cellLife = new CellLife();
         cellLife.output(cellLife.inputCellOfArray());
         cellLife.circu(cellArray,2);
-
-
-
-
     }
 }
