@@ -8,35 +8,36 @@ import java.util.Scanner;
 public class CellLife {
     private static final char life = '*';
     private static final char dead = '-';
-    static char[][] cellArray = new char[5][5];
-    static char[][] cellCopy = new char[5][5];
+    static char[][] cellArray = new char[12][12];
+    static char[][] cellCopy = new char[12][12];
 
     public char[][] inputCellOfArray() {
-        String str = "-----------***-----------";
+        //String str = "-----------***-----------";
+        String str = "------------" +
+                     "---*---*-*--" +
+                     "---*---*----" +
+                     "------*-----" +
+                     "-----**-----" +
+                     "-----**-----" +
+                     "---*-----*--" +
+                     "----*--*----" +
+                     "---*---**---" +
+                     "--*-----*---" +
+                     "---*----*---" +
+                     "------------";
+
         int index = 0;
-        for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < 5; j++) {
+        for (int i = 0; i < 12; i++) {
+            for (int j = 0; j < 12; j++) {
                 cellArray[i][j] = str.charAt(index++);
                 cellCopy[i][j] = dead;
             }
         }
         return cellArray;
     }
-     /*  String[][] cellArray = new String[4][4];
-        *//* for (int i = 0; i < n-1; i++) {
-            for (int j = 0; j < n-1; j++) {
-                cellArray[i][j] = scanner.next();
-            }
-        }*//*
-        for (int i = 0; i < 4; i++) {
-            cellArray[0][i] = dead;
-            cellArray[i][0] = dead;
-            cellArray[4-1][i] = dead;
-            cellArray[i][4-1] = dead;
-        }*/
 
     public void circu (char[][] array,int m) {
-        char[][] next = new char[5][5];
+        char[][] next = new char[12][12];
         for (int i = 0; i < m; i++) {
             next = trans(array);
             output(next);
@@ -47,8 +48,8 @@ public class CellLife {
 
     public char[][] trans(char[][] cellArray) {
             int life_num = 0;
-            for (int i = 1; i < 4; i++) {
-                for (int j = 1; j < 4; j++) {
+            for (int i = 1; i < 11; i++) {
+                for (int j = 1; j < 11; j++) {
                     life_num = neighbors(i, j);
                     switch (life_num) {
                         case 0:
@@ -58,15 +59,12 @@ public class CellLife {
                         case 6:
                         case 7:
                         case 8:
-                            //cellArray[i][j] = dead;
                             cellCopy[i][j] = dead;
                             break;
                         case 2:
-                            //cellCopy[i][j] = cellArray[i][j];
                             cellCopy[i][j] = cellArray[i][j];
                             break;
                         case 3:
-                            //cellCopy[i][j] = life;
                             cellCopy[i][j] = life;
                             break;
                     }
@@ -88,8 +86,8 @@ public class CellLife {
     }
 
     public char[][] copy(char[][] array) {
-        for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < 5; j++) {
+        for (int i = 0; i < 12; i++) {
+            for (int j = 0; j < 12; j++) {
                 cellArray[i][j] = cellCopy[i][j];
             }
         }
@@ -97,8 +95,8 @@ public class CellLife {
     }
 
     public void output(char[][] array) {
-        for (int i = 1; i < 4; i++) {
-            for (int j = 1; j < 4; j++) {
+        for (int i = 1; i < 11; i++) {
+            for (int j = 1; j < 11; j++) {
                 System.out.print(array[i][j] + " ");
             }
             System.out.println();
